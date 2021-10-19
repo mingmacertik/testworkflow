@@ -18,12 +18,20 @@ jobs:
         # these if statements ensure that a publication only occurs when
         # a new release is created:
         if: ${{ steps.release.outputs.release_created }}
-      #- name: staging -> canary
-      - uses: robotology/gh-action-nightly-merge@v1.3.1
+
+      - name: Merge development -> staging
+        uses: devmasx/merge-branch@v1.4.0
         with:
-          stable_branch: 'staging'
-          development_branch: 'canary'
-          allow_ff: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          type: now
+          from_branch: staging
+          target_branch: canary
+          github_token: ${{ github.token }}
+      #- name: staging -> canary
+#      - uses: robotology/gh-action-nightly-merge@v1.3.1
+#        with:
+#          stable_branch: 'staging'
+#          development_branch: 'canary'
+#          allow_ff: true
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ steps.release.outputs.release_created }}
