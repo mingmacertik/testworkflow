@@ -1,3 +1,4 @@
+name: 'Canary Release'
 on:
   push:
     tags:
@@ -8,7 +9,9 @@ jobs:
   canary:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+	uses: actions/checkout@v2
+
       - name: staging -> canary
         uses: robotology/gh-action-nightly-merge@v1.3.2
         with:
