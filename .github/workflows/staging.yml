@@ -2,14 +2,36 @@ on:
   push:
     branches:
       - staging
-  workflow_dispatch:
+#  workflow_dispatch:
 name: Staging Release
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v2
+        id: release
         with:
           release-type: node
           package-name: testworkflow
           default-branch: staging
+      - uses: actions/checkout@v2
+        # these if statements ensure that a publication only occurs when
+        # a new release is created:
+        if: ${{ steps.release.outputs.release_created }}
+
+      - name: Merge development -> staging
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          from_branch: staging
+          target_branch: canary
+          github_token: ${{ github.token }}
+      #- name: staging -> canary
+#      - uses: robotology/gh-action-nightly-merge@v1.3.1
+#        with:
+#          stable_branch: 'staging'
+#          development_branch: 'canary'
+#          allow_ff: true
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ steps.release.outputs.release_created }}
