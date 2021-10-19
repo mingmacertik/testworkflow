@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.2.0...v1.3.0) (2021-10-19)
+
+
+### Features
+
+* change branches ([4b4b8cb](https://www.github.com/mingmacertik/testworkflow/commit/4b4b8cb1e9f6af6ae54d959c639529aabf865c43))
+* h ([baf98bc](https://www.github.com/mingmacertik/testworkflow/commit/baf98bc9a5ef0e3075bd015df6aca6dd874433bb))
+
 ## [1.2.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.1.0...v1.2.0) (2021-10-19)
 
 
