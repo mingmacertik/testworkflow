@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v2
-	id: release
+        id: release
         with:
           release-type: node
           package-name: testworkflow
