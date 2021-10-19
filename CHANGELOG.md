@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.1.0...v1.2.0) (2021-10-19)
+
+
+### Features
+
+* g ([71e2d08](https://www.github.com/mingmacertik/testworkflow/commit/71e2d08509975d18c050cdf543bd0de94f3775c9))
+
+
+### Bug Fixes
+
+* both yml ([f79d96f](https://www.github.com/mingmacertik/testworkflow/commit/f79d96fd159e67db79cdc028f3be6f8ad077f9da))
+* canaryyml ([0c9011c](https://www.github.com/mingmacertik/testworkflow/commit/0c9011c6358ec227d8a60a5519390bab0021c037))
+* more staging.yml ([ee04662](https://www.github.com/mingmacertik/testworkflow/commit/ee046624f695fa29081d70aeecaad2aa97681a34))
+* stagingyml ([3690f90](https://www.github.com/mingmacertik/testworkflow/commit/3690f9084bd1d768105b7f80f9b8352bb9b7420f))
+
 ## [1.1.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.0.0...v1.1.0) (2021-10-19)
 
 
