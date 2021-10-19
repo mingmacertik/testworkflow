@@ -8,7 +8,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v2.32.0
+      - uses: GoogleCloudPlatform/release-please-action@v2
         with:
           release-type: node
           package-name: testworkflow
