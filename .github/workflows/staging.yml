@@ -20,7 +20,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Merge development -> staging
-        uses: devmasx/merge-branch@v1.4.0
+        uses: devmasx/merge-branch@master
         with:
           type: now
           from_branch: staging
