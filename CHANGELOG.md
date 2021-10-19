@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.3.0...v1.4.0) (2021-10-19)
+
+
+### Features
+
+* more staging.yml ([af98a4a](https://www.github.com/mingmacertik/testworkflow/commit/af98a4a43aae0932d83c1fafedc7058687f97c3f))
+* more staginyml2 ([53161d0](https://www.github.com/mingmacertik/testworkflow/commit/53161d0663b55b18d7bc5210e2c38dec953c746c))
+
 ## [1.3.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.2.0...v1.3.0) (2021-10-19)
 
 
