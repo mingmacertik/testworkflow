@@ -20,8 +20,8 @@ jobs:
       #- name: staging -> canary
       - uses: robotology/gh-action-nightly-merge@v1.3.1
         with:
-          stable_branch: canary
-          development_branch: staging
+          stable_branch: staging
+          development_branch: canary
           allow_ff: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
