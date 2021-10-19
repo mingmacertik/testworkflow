@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.5.0...v1.6.0) (2021-10-19)
+
+
+### Features
+
+* yaml4 ([a134047](https://www.github.com/mingmacertik/testworkflow/commit/a134047d88cb9fbdcd38abc1f861126fbe4e7cdb))
+* yaml5 ([6e43a0a](https://www.github.com/mingmacertik/testworkflow/commit/6e43a0abc80a6b2e20d413f77e06fd4d1fd6240f))
+
 ## [1.5.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.4.0...v1.5.0) (2021-10-19)
 
 
