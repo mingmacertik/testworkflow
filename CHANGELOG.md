@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/mingmacertik/testworkflow/compare/v1.0.0...v1.1.0) (2021-10-19)
+
+
+### Features
+
+* canary workflow yml ([1d2eeda](https://www.github.com/mingmacertik/testworkflow/commit/1d2eedace676c0ca99bc83943c054c73b2c40fb2))
+* f ([41d4e0a](https://www.github.com/mingmacertik/testworkflow/commit/41d4e0aa7258df4da3b4bc6703784f6fc3b2410f))
+
 ## 1.0.0 (2021-10-19)
 
 
