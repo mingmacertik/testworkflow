@@ -25,4 +25,4 @@ jobs:
           allow_ff: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-	if: ${{ steps.release.outputs.release_created }}
+        if: ${{ steps.release.outputs.release_created }}
